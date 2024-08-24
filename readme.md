@@ -32,7 +32,8 @@ A estrutura do projeto é a seguinte:
 
 ## Demonstração
 
-![Screenshot da página](images/marco_zero_recife.jpg)
+[![Screenshot da página](images/marco_zero_recife.jpg)](https://th.bing.com/th/id/R.f9cf0542f3500c326a8ef2bd92f92856?rik=AzokCFmZzJSeDg&pid=ImgRaw&r=0&sres=1&sresct=1)
+
 
 ## Autor
 
