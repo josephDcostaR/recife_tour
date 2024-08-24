@@ -5,47 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marco Zero - Recife</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
         }
-        header {
+
+        header, footer {
             background-color: #004080;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+
         .container {
+            flex: 1;
             padding: 20px;
             text-align: center;
+            overflow-y: auto;
         }
-        footer {
-            background-color: #004080;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+
         img {
-            max-width: 50%;
+            max-width: 100%;
             height: auto;
             border-radius: 10px;
             margin-top: 20px;
         }
+
         .highlight {
             font-weight: bold;
             color: #004080;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #004080;
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Marco Zero - Recife</h1>
+      <h1>Pontos Turísticos do Recife</h1>
+      <nav>
+        <h1> <a href="index.html">Marco Zero - Recife</a></h1>
+        <h1> <a href="index2.html">Recife Antigo - Recife</a></h1>
+      </nav>
     </header>
 
     <div class="container">
